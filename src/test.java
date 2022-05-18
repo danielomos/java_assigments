@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfEve_Odd {
+public class test {
     public static void main (String...args){
         Scanner input = new Scanner(System.in);
 
@@ -12,7 +12,7 @@ public class SumOfEve_Odd {
         int evenNumber = 0;
         int oddNumber = 0;
 
-        while ( number != -1){
+        for ( ;number != -1;){
 
             if (number % 2 == 0 ) {
                 evenNumber += number;
